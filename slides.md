@@ -9,7 +9,6 @@ style: |
   }
     color: #0057b8;
     font-size: 2.5em;
-  }
   .email {
     font-size: 1.1em;
   <!-- _background: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80') -->
@@ -27,21 +26,19 @@ style: |
 
 <!-- _background: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80') -->
 # Features Overview
-
 - Easy version control
 - Multiple export formats
 - Custom themes and styling
 
 ---
 
-# Algorithmic Complexity
+  <!-- _background: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80') -->
+  # Background Image Example
 
-$$
+  This slide demonstrates a background image using Marp directives.
+
 T(n) = O(n \log n)
 $$
-
----
-
 # Custom Styling Example
 
 <style>
