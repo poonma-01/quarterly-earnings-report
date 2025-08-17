@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Quarterly Earnings Report</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/white.css" id="theme">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/monokai.css">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section data-markdown>
+        <textarea data-template>
+# Quarterly Earnings Report
+
+**Presented by:** poonma-01  
+**Email:** 23f2003677@ds.study.iitm.ac.in
+
+---
+
+## Financial Highlights
+- Revenue growth: **15%**
+- Net profit: **$2.3M**
+- EPS: **$1.25**
+        </textarea>
+      </section>
+      <section>
+        <h2>Animated Highlights</h2>
+        <ul>
+          <li class="fragment">Q1 Revenue: $500K</li>
+          <li class="fragment">Q2 Revenue: $600K</li>
+          <li class="fragment">Q3 Revenue: $700K</li>
+          <li class="fragment">Q4 Revenue: $1.2M</li>
+        </ul>
+        <aside class="notes">
+          Discuss quarterly trends and highlight Q4 surge.
+        </aside>
+      </section>
+      <section>
+        <h2>Code Sample</h2>
+        <pre><code class="language-python"># Calculate Earnings Per Share
+net_income = 2300000
+shares_outstanding = 1840000
+EPS = net_income / shares_outstanding
+print(f"Earnings Per Share: ${EPS:.2f}")
+</code></pre>
+        <aside class="notes">
+          Show how EPS is calculated programmatically.
+        </aside>
+      </section>
+      <section>
+        <h2>Financial Formula</h2>
+        <p>Return on Equity (ROE):</p>
+        <p>\[ ROE = \frac{Net\ Income}{Shareholder's\ Equity} \]</p>
+        <aside class="notes">
+          Explain the importance of ROE in financial analysis.
+        </aside>
+      </section>
+      <section>
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:23f2003677@ds.study.iitm.ac.in">23f2003677@ds.study.iitm.ac.in</a></p>
+        <aside class="notes">
+          Invite questions and feedback from stakeholders.
+        </aside>
+      </section>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/markdown/markdown.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/highlight.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/math/math.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      plugins: [ RevealMarkdown, RevealHighlight, RevealMath ]
+    });
+  </script>
+</body>
+</html>
