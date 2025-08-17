@@ -6,13 +6,16 @@ style: |
   section {
     font-family: 'Segoe UI', Arial, sans-serif;
     color: #222;
-  }
     color: #0057b8;
     font-size: 2.5em;
   .email {
     font-size: 1.1em;
   <!-- _background: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80') -->
-  # Features Overview
+  <!-- _background: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80') -->
+  # 
+  # **Background Image Slide**
+
+  This slide uses only a background image and a heading to ensure Marp compliance.
 
   ![Background](https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80)
 
