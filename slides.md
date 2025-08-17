@@ -7,19 +7,19 @@ style: |
     font-family: 'Segoe UI', Arial, sans-serif;
     color: #222;
   }
-  h1 {
     color: #0057b8;
     font-size: 2.5em;
   }
   .email {
     font-size: 1.1em;
-    color: #00796b;
-    margin-top: 1em;
-  }
----
+  <!-- _background: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80') -->
+  # Features Overview
 
-# Product Documentation
+  ![Background](https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80)
 
+  - Easy version control
+  - Multiple export formats
+  - Custom themes and styling
 **Technical Writer:** poonma-01  
 <span class="email">Email: 23f2003677@ds.study.iitm.ac.in</span>
 
